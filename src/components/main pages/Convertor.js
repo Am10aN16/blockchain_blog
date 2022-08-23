@@ -45,7 +45,7 @@ setResult(result);
         <div className="equals">= {result}</div>
            
         <input type="text" name="input" placeholder="EUR , GBP , JPY " onChange={(e)=>{const currency1 = e.target.value ; setCurrency1(currency1)}} />
-        <button onClick={submitHandle}></button>
+        <button onClick={submitHandle} style={{borderRadius:"10px" , marginTop:10, padding:"10px 30px"}}>Submit</button>
       </div>
       <Footer />
     </>
